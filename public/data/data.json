@@ -1,0 +1,63 @@
+[
+  {
+    "workcenter": "WC-0001",
+    "lines": [
+      {
+        "ordertypeline": "Firm Planned",
+        "prodordernoline": "FPRO00001",
+        "itemno": "1029",
+        "descriptionline": "Wild Coho Salmon",
+        "startingdatetimeline": "2022-02-21T11:00:00Z",
+        "endingdatetimeline": "2022-02-24T13:00:00.007Z",
+        "quantityline": 3,
+        "uomline": "LBS"
+      },
+      {
+        "ordertypeline": "Released",
+        "prodordernoline": "RPRO00001",
+        "itemno": "1059",
+        "descriptionline": "Wild Atlantic Salmon",
+        "startingdatetimeline": "2022-03-02T03:00:00Z",
+        "endingdatetimeline": "2022-03-03T23:00:00Z",
+        "quantityline": 2,
+        "uomline": "LBS"
+      }
+    ]
+  },
+  {
+    "workcenter": "WC-0002",
+    "lines": [
+      {
+        "ordertypeline": "Firm Planned",
+        "prodordernoline": "FPRO00001",
+        "itemno": "1025",
+        "descriptionline": "Farmed Tilapia",
+        "startingdatetimeline": "2022-02-24T15:00:00Z",
+        "endingdatetimeline": "2022-02-26T18:00:00Z",
+        "quantityline": 4,
+        "uomline": "LBS",
+        "fromworkcenter": "WC-0001",
+        "fromitemno": "1029",
+        "fromSide": "bottom"
+      }
+    ]
+  },
+  {
+    "workcenter": "WC-0003",
+    "lines": [
+      {
+        "ordertypeline": "Firm Planned",
+        "prodordernoline": "FPRO00001",
+        "itemno": "1025",
+        "descriptionline": "Farmed Tilapia sample",
+        "startingdatetimeline": "2022-02-24T15:00:00Z",
+        "endingdatetimeline": "2022-02-26T18:00:00Z",
+        "quantityline": 1,
+        "uomline": "LBS",
+        "fromworkcenter": "WC-0002",
+        "fromitemno": "1025",
+        "fromSide": "right"
+      }
+    ]
+  }
+]
